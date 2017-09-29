@@ -1,0 +1,61 @@
+header {
+    background-image: url('../images/amsterdamback.jpg');
+    background-size: contain;
+    height: 500px;
+}
+
+nav {
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container h3 p {
+    text-align: center;
+}
+
+.container .row {
+    text-align: center;
+}
+
+.images {
+    width: 200px;
+}
+
+#container2 {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-around;
+}
+
+#container2 p {
+    margin-top: 25px;
+    font-size: 2em;
+    color: darkgrey;
+}
